@@ -2,10 +2,12 @@
   "name": "Tika-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "yarn ts-node src/index.ts"
+    "go": "yarn ts-node src/index.ts",
+    "build": "rm -rf dist && tsc --b",
+    "start": "node dist/index.js",
+    "dev": "yarn run build && yarn run start"
   },
   "keywords": [],
   "author": "",
