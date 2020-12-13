@@ -14,8 +14,6 @@ class Ping extends __1.default {
                 examples: ['!ping', '@bot ping'],
             },
             typing: true,
-            userPerms: ['MANAGE_GUILD'],
-            channel: 'dm',
         });
     }
     async run(msg) {

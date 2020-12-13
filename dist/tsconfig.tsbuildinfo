@@ -432,7 +432,7 @@
         "affectsGlobalScope": false
       },
       "../src/commands/components/Ping.ts": {
-        "version": "25e36c22ad613fbfaa5dacd8af50d9976d0f243bb93e1ab597cef9529a19d5a3",
+        "version": "09cd44a4ab7469070f9b99195bbd22b7d8073aaa74b799d3aa39284cf34c1b1a",
         "signature": "0a3961721eb0887ac389b8583a98adca8330869f34f13476974a5ccc8f76176f",
         "affectsGlobalScope": false
       },
