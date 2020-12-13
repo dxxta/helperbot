@@ -38,7 +38,7 @@ class BotHandler extends events_1.EventEmitter {
         module.client = this.client;
         module.handler = this;
         this.modules.set(module.id, module);
-        console.info(`Command ${module.id} has ready ✅`);
+        console.info(`Module ${module.id} has ready ✅`);
     }
     async load(file) {
         const isClass = typeof file === 'function';
