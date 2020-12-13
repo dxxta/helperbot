@@ -6,15 +6,14 @@ const dotenv_1 = require("dotenv");
 dotenv_1.config();
 class Sharding extends discord_js_1.ShardingManager {
     constructor() {
-        super(path_1.join(__dirname, "BotClient.js"), {
+        super(path_1.join(__dirname, 'BotClient.js'), {
             token: process.env.TOKEN,
-            totalShards: "auto",
-            respawn: false,
+            totalShards: 'auto',
         });
         this.init();
     }
     init() {
-        this.on("shardCreate", (shard) => console.log(`Launched shard ${shard.id}`));
+        this.on('shardCreate', (shard) => console.log(`Launched shard ${shard.id}`));
     }
     run() {
         this.spawn(this.totalShards, 10000);

@@ -136,6 +136,16 @@
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
       },
+      "../node_modules/@discordjs/collection/dist/index.d.ts": {
+        "version": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
+        "signature": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord.js/typings/index.d.ts": {
+        "version": "bbb87411988e93370461ac33c6437098c8cd39e9a7c92ea0d94b6a375dbe52cc",
+        "signature": "bbb87411988e93370461ac33c6437098c8cd39e9a7c92ea0d94b6a375dbe52cc",
+        "affectsGlobalScope": true
+      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "cdbd1c3e0c329abaa9442d3dd8b62699464a26b2e8e36fbde362bd4e7d490f16",
         "signature": "cdbd1c3e0c329abaa9442d3dd8b62699464a26b2e8e36fbde362bd4e7d490f16",
@@ -376,44 +386,64 @@
         "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528",
         "affectsGlobalScope": false
       },
-      "../node_modules/@discordjs/collection/dist/index.d.ts": {
-        "version": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
-        "signature": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
+      "../src/BotWrapper.ts": {
+        "version": "c3367a5cde0084f6831b414c838aba4013fb1083793628baa8ff86f4af31f72d",
+        "signature": "666a2c50f28815e54eabd4520965c1d8fa989b8935209a2d9faa048f0309db24",
         "affectsGlobalScope": false
       },
-      "../node_modules/discord.js/typings/index.d.ts": {
-        "version": "bbb87411988e93370461ac33c6437098c8cd39e9a7c92ea0d94b6a375dbe52cc",
-        "signature": "bbb87411988e93370461ac33c6437098c8cd39e9a7c92ea0d94b6a375dbe52cc",
-        "affectsGlobalScope": true
+      "../src/BotHandler.ts": {
+        "version": "3d7478230b52912e312c962b75404de9d121a259e16a669f531a6aea6219d63c",
+        "signature": "df92c25532b5d7deb87850741e37d9d0871827064d92d4e9d6117361a61a37aa",
+        "affectsGlobalScope": false
       },
-      "../src/interface/IClient.ts": {
-        "version": "6ecc18fcf8acd932c0e17babe4e106a045fb14ff198cfd8fccd31a12ce51fdda",
-        "signature": "984f016a31c240a84de53e8cb03a3962e766928925282a86c4ba0a2548689ebc",
+      "../src/commands/index.ts": {
+        "version": "aca3c3cae6d1064258357c0c7b53601c0d79fa6f2ed86e95e8b20a7ab02bfc90",
+        "signature": "471f4535231b8e5837252cd36e8913775678ef9942656a94cf4b73874e70a09d",
+        "affectsGlobalScope": false
+      },
+      "../src/utils/stuff.ts": {
+        "version": "2dfa433cd150b3cf8680180264b4c22f6665f23711702ed5fdd71595effa3a43",
+        "signature": "f05e712f36d069eeca3ba3b9b9add0092315002211e7ef240db240e8a9dac5c0",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/Handler.ts": {
+        "version": "fa2aad2d5e51c5ecfdec8c14fb0a5e96babc2a74cabdde92f95ada7e3520b189",
+        "signature": "786c382fca7ec87de92d1f3acc8dbc5f166396125574e2abbd9949ea68db5680",
+        "affectsGlobalScope": false
+      },
+      "../src/events/index.ts": {
+        "version": "7070bb3b9cf4530194752df58159567c3d0558cf9091285ddba9b27cab7fcfc6",
+        "signature": "8605d09ba916567e73bfda45abda74bb45adca27ec8a00fe0163472e2a646c75",
+        "affectsGlobalScope": false
+      },
+      "../src/events/Handler.ts": {
+        "version": "f2eaaad9bf3db911bb50aa633c3b1f82f3e0f2c5c8a5123d8017c345baf7c0e4",
+        "signature": "7fa8bf49d60052d12d022785fc5ecac30404a16f3f765e889c07cc11dc5f713f",
         "affectsGlobalScope": false
       },
       "../src/BotClient.ts": {
-        "version": "bf3c85ab2b9d85aa71d4c64c9ed1e90f5a8efc068b56cbb4524a7b37a7d4c2d3",
-        "signature": "5f37e136b4f80b98a3959a6772b64b22e2e859a6b5a46a9896b24280801e94c0",
-        "affectsGlobalScope": false
-      },
-      "../src/Base.ts": {
-        "version": "68601fc15910767eaed6d704e6997d692bd93f99a742123111a3c2d5095362da",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/interface/IWrapper.ts": {
-        "version": "355edac23e7dc1c7c64f6cf95d303cfce817d01d0e8eb1f6848196b004293280",
-        "signature": "cd1f3df9489dae9e223cf2e90cefbefcb9321e6ec013375045e39fe4023967d4",
-        "affectsGlobalScope": false
-      },
-      "../src/BotWrapper.ts": {
-        "version": "d47fd95fb7965e5eb8cffd3569fece1dd8693f0bd408435d131a08ac41a58153",
-        "signature": "1d92dd126407d361180cf8726a62d3e415c901b64d30634a556ad623004866bf",
+        "version": "7443d29a6e72bfbf5ae9bdc1a147b85294eefec80cce83cfb9911a0bf18063d9",
+        "signature": "920aefdc557e93a69e1ddb3c1cc587720c0d24fd5582c0a29a10bb708eacc1a7",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "beed54e292c32125aa1eb5751962c80ed0d0eb4a2bc7e91577257980fd243e5e",
+        "version": "61f2abbe3a6a8381d476dad8b1eaedf66192b57b4a76c83449599e979fcb44aa",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/Ping.ts": {
+        "version": "25e36c22ad613fbfaa5dacd8af50d9976d0f243bb93e1ab597cef9529a19d5a3",
+        "signature": "0a3961721eb0887ac389b8583a98adca8330869f34f13476974a5ccc8f76176f",
+        "affectsGlobalScope": false
+      },
+      "../src/events/components/Ready.ts": {
+        "version": "9bdf861c14e1df18962ecb682672e50128d29ba5587cdb9ce40d935cc26ddc25",
+        "signature": "425b51593cec014620d1a4a50960921c3fedc75325d86b0ed5a2239d40626015",
+        "affectsGlobalScope": false
+      },
+      "../src/utils/interface.ts": {
+        "version": "b16db9c65aa4a188135c27d09105e355802d5ece914706114b18f01ae8a776ba",
+        "signature": "17254fdd7e66deeecca6ad9edff3080871819babb1ff32e11e85f1b1e51b5042",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/bson/index.d.ts": {
@@ -436,7 +466,6 @@
       ],
       "outDir": "./",
       "removeComments": true,
-      "importHelpers": true,
       "strict": true,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
@@ -633,29 +662,61 @@
       "../node_modules/dotenv/types/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
       ],
-      "../src/Base.ts": [
-        "../node_modules/dotenv/types/index.d.ts",
-        "../src/BotClient.ts"
-      ],
       "../src/BotClient.ts": [
+        "../node_modules/@types/node/path.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../node_modules/dotenv/types/index.d.ts",
-        "../src/interface/IClient.ts"
+        "../src/commands/Handler.ts",
+        "../src/events/Handler.ts"
+      ],
+      "../src/BotHandler.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts",
+        "../src/BotWrapper.ts"
       ],
       "../src/BotWrapper.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts"
+      ],
+      "../src/commands/Handler.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotClient.ts",
-        "../src/interface/IWrapper.ts"
+        "../src/BotHandler.ts",
+        "../src/commands/index.ts",
+        "../src/utils/stuff.ts"
+      ],
+      "../src/commands/components/Ping.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/index.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotWrapper.ts"
+      ],
+      "../src/events/Handler.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts",
+        "../src/BotHandler.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Ready.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/index.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotWrapper.ts"
       ],
       "../src/index.ts": [
         "../node_modules/@types/node/path.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../node_modules/dotenv/types/index.d.ts"
       ],
-      "../src/interface/IClient.ts": [
-        "../node_modules/discord.js/typings/index.d.ts"
-      ],
-      "../src/interface/IWrapper.ts": [
+      "../src/utils/interface.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotClient.ts"
       ]
     },
@@ -849,17 +910,48 @@
       ],
       "../src/BotClient.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/interface/IClient.ts"
+        "../src/commands/Handler.ts",
+        "../src/events/Handler.ts"
+      ],
+      "../src/BotHandler.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts"
       ],
       "../src/BotWrapper.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts"
+      ],
+      "../src/commands/Handler.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotClient.ts",
-        "../src/interface/IWrapper.ts"
+        "../src/BotHandler.ts",
+        "../src/commands/index.ts"
       ],
-      "../src/interface/IClient.ts": [
-        "../node_modules/discord.js/typings/index.d.ts"
+      "../src/commands/components/Ping.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
       ],
-      "../src/interface/IWrapper.ts": [
+      "../src/commands/index.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotWrapper.ts"
+      ],
+      "../src/events/Handler.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotClient.ts",
+        "../src/BotHandler.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Ready.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/index.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/BotWrapper.ts"
+      ],
+      "../src/utils/interface.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotClient.ts"
       ]
     },
@@ -943,12 +1035,18 @@
       "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "../src/Base.ts",
       "../src/BotClient.ts",
+      "../src/BotHandler.ts",
       "../src/BotWrapper.ts",
+      "../src/commands/Handler.ts",
+      "../src/commands/components/Ping.ts",
+      "../src/commands/index.ts",
+      "../src/events/Handler.ts",
+      "../src/events/components/Ready.ts",
+      "../src/events/index.ts",
       "../src/index.ts",
-      "../src/interface/IClient.ts",
-      "../src/interface/IWrapper.ts"
+      "../src/utils/interface.ts",
+      "../src/utils/stuff.ts"
     ]
   },
   "version": "4.1.2"

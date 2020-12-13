@@ -1,26 +1,25 @@
-import { ShardingManager } from "discord.js";
-import { join } from "path";
-import { config } from "dotenv";
-config();
+import { ShardingManager } from 'discord.js'
+import { join } from 'path'
+import { config } from 'dotenv'
+config()
 class Sharding extends ShardingManager {
   constructor() {
-    super(join(__dirname, "BotClient.js"), {
+    super(join(__dirname, 'BotClient.js'), {
       token: process.env.TOKEN,
-      totalShards: "auto",
-      respawn: false,
-    });
-    this.init();
+      totalShards: 'auto',
+    })
+    this.init()
   }
   init() {
-    this.on("shardCreate", (shard: any) =>
+    this.on('shardCreate', (shard: any) =>
       console.log(`Launched shard ${shard.id}`)
-    );
+    )
   }
   run() {
-    this.spawn(this.totalShards, 10000);
+    this.spawn(this.totalShards, 10000)
   }
 }
-new Sharding().run();
+new Sharding().run()
 
 // import { config } from "dotenv";
 // import { Client } from "discord.js";
