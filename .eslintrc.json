@@ -1,0 +1,12 @@
+{
+  "extends": "eslint:recomended",
+  "env": {
+    "browser": false
+  },
+  "rules": {
+    "comma-spacing": "error",
+    "semi": "off",
+    "no-unused-vars": "warn",
+    "no-unexpected-multiline": "error"
+  }
+}
