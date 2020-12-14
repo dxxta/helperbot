@@ -8,6 +8,8 @@ class Ping extends __1.default {
     constructor() {
         super('ping', {
             alias: ['ping'],
+            limit: 1,
+            cooldown: 10000,
             details: {
                 desc: 'Check websocket connection between author - bot - api',
                 usage: '<prefix | @bot_mention> ping',

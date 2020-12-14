@@ -111,6 +111,8 @@ class CommandHandler extends BotHandler_1.default {
         const result = await this.parseCommand(msg);
         if (result.command) {
             msg.content = result.content;
+            if ((await this.runCooldowns(msg, result.command)) === true)
+                return;
             if ((await this.handlerPreventer(msg, result.command)) === true)
                 return;
             await this.runCommand(msg, result.command);
@@ -156,6 +158,47 @@ class CommandHandler extends BotHandler_1.default {
             if (cmd.typing)
                 msg.channel.stopTyping();
         }
+    }
+    async runCooldowns(message, command) {
+        var _a;
+        const ignorer = command.ignoreCooldown || this.ignoreCooldown;
+        const isIgnored = Array.isArray(ignorer)
+            ? ignorer.includes(message.author.id) || ((_a = message.member) === null || _a === void 0 ? void 0 : _a.hasPermission(ignorer))
+            : typeof ignorer === 'function'
+                ? ignorer(message)
+                : message.author.id === ignorer;
+        if (isIgnored)
+            return false;
+        if (!this.defaultCooldowns)
+            return false;
+        const time = command.cooldown || this.defaultCooldowns;
+        const endTime = message.createdTimestamp + time;
+        const id = message.author.id;
+        if (!this.cooldowns.has(id))
+            this.cooldowns.set(id, {});
+        if (!this.cooldowns.get(id)[command.id]) {
+            this.cooldowns.get(id)[command.id] = {
+                timer: this.client.setTimeout(() => {
+                    if (this.cooldowns.get(id)[command.id]) {
+                        this.client.clearTimeout(this.cooldowns.get(id)[command.id].timer);
+                    }
+                    this.cooldowns.get(id)[command.id] = null;
+                    if (!Object.keys(this.cooldowns.get(id)).length) {
+                        this.cooldowns.delete(id);
+                    }
+                }, time),
+                end: endTime,
+                uses: 0,
+            };
+        }
+        const entry = this.cooldowns.get(id)[command.id];
+        if (entry && entry.uses >= command.limit) {
+            const uses = this.cooldowns.get(message.author.id)[command.id].uses;
+            this.emit('cooldown', message, command, time, uses);
+            return true;
+        }
+        entry && entry.uses++;
+        return false;
     }
 }
 exports.default = CommandHandler;
