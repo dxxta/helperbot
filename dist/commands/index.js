@@ -11,7 +11,6 @@ class Command extends BotWrapper_1.default {
         this.details = options.details;
         this.userPerms = options.userPerms;
         this.cooldown = options.cooldown;
-        this.blockBots = Boolean(options.blockBots || true);
         this.channel = options.channel || 'both';
         this.limit = options.limit || 2;
         this.ownerOnly = Boolean(options.ownerOnly || false);

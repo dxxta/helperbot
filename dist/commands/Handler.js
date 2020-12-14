@@ -95,7 +95,7 @@ class CommandHandler extends BotHandler_1.default {
         if (cmd.ownerOnly && !this.client.checkOwner(msg.author)) {
             return true;
         }
-        if ((cmd.blockBots || this.blockBots) && msg.author.bot) {
+        if (this.blockBots && msg.author.bot) {
             return true;
         }
         if (cmd.userPerms &&
