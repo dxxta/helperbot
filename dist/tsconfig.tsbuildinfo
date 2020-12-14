@@ -397,8 +397,8 @@
         "affectsGlobalScope": false
       },
       "../src/commands/index.ts": {
-        "version": "dd5dd9cf238d5ed9969e82533c3907127e0c3dd5a3aac68bcd875db9b3b2bf3e",
-        "signature": "95cfdd3984de543c81d96398df0ecd9799144e281b080e54f290d83acb4d7546",
+        "version": "ca49375acee888459402ee33dc413e212490161ff1a65e35c19a63eb74fc9836",
+        "signature": "0da442a06002a4e383a80b015a0cd84a22330780c3d19943d391e90851de9dd7",
         "affectsGlobalScope": false
       },
       "../src/utils/stuff.ts": {
@@ -407,7 +407,7 @@
         "affectsGlobalScope": false
       },
       "../src/commands/Handler.ts": {
-        "version": "dc1ad100729d3db1d8d15269add83e102387d8d3ab3387de8d7876960d75f363",
+        "version": "58af875995824de0cf349eb534f40189a0271c43e635b034a350b42ef1c3c6a7",
         "signature": "f31a436ae5f437a6980b57e54ad87766e5304b05f27a7ea9617a6296cd40b459",
         "affectsGlobalScope": false
       },
@@ -431,19 +431,44 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
+      "../src/commands/components/Avatar.ts": {
+        "version": "ad538b0774c4721f609224f43b8d4bcc4aa0dabe01d3a41e46f17dedff829169",
+        "signature": "1298d99d3e08ef8966c5727d0bb8f73ff7e6f94b552f399fa90994c3e96b78af",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/Info.ts": {
+        "version": "c64694bdcb8adcd9c5c4f87286267606a620ef92583980b7e8191b52ad4507b7",
+        "signature": "df3a0e76ea3449512d9ade1fea2dd7a9c72e463c3d35c40f91b7a4c38fe726f5",
+        "affectsGlobalScope": false
+      },
       "../src/commands/components/Ping.ts": {
-        "version": "10b7e18a1f10bb27a6d8410139694e84cd0cfc41d8aec4a2b1a569aafacbe190",
+        "version": "7f1fd20a0e2084e5aa80ada4f8b616615ba05b55a03c1629d284ecb9709294d7",
         "signature": "0a3961721eb0887ac389b8583a98adca8330869f34f13476974a5ccc8f76176f",
         "affectsGlobalScope": false
       },
+      "../src/commands/components/Purge.ts": {
+        "version": "729b5884e42a7b5a2bec65a0b39d78e3c6a87cb10f6ce409afaa05343fe4594d",
+        "signature": "4f2afd4362e7aee556aad0b8238d03a5d215d7e003e07327b93b9253bb585982",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/Sneak.ts": {
+        "version": "54be69fb946d420c930a9df50b7f65263284608a06fadb1b39f43a835bc4fdcf",
+        "signature": "19c91c15a26d2f35ee956efaa162d94b90901e89dc6f752611589a2ab00e4a57",
+        "affectsGlobalScope": false
+      },
       "../src/events/components/Cooldown.ts": {
-        "version": "7b213ec5ecd6d943cfa7c6614f4ff44975010938de8a2262a3d0380be152fc22",
-        "signature": "79ee84f4d72ec50ccfb109442a68f7a2e96c425698eb82c8d1a5ac632cac5c68",
+        "version": "6f61a1d10c398d5c0c0a8b8a88f216a363b92e8501c026c8601eae199c5ff3f0",
+        "signature": "d81b6d3c3a98ec430e3ea6c68c0bd26fe22cace8a02c4ae513d61cc4b138efae",
         "affectsGlobalScope": false
       },
       "../src/events/components/Client/Ready.ts": {
-        "version": "98f7791ed3768ddad7cf72a2d5df66049ae2f07bcc210a2a99f4cf273e2376aa",
-        "signature": "d8ec66805f2138e8a2c587cae247d44f077b8a40626d7872891e9cb86835d29d",
+        "version": "b9994cee18144ffde5d185910727eb81a7a5b3069ee15363cf58af7f057390a8",
+        "signature": "991e3b7609770678c682a3305af8199718a1c2b6ff497d10c128a394ab76596a",
+        "affectsGlobalScope": false
+      },
+      "../src/events/components/Client/messageDeleted.ts": {
+        "version": "33798f4aa5de32423bcbff425cd0cd5b46d5a08d974fcb21b33dc4eef020650d",
+        "signature": "bc84318dc66ec7df7ebc60e258e1224ae03a2160a74483e28bad969afceb0879",
         "affectsGlobalScope": false
       },
       "../src/utils/interface.ts": {
@@ -801,7 +826,23 @@
         "../src/commands/index.ts",
         "../src/utils/stuff.ts"
       ],
+      "../src/commands/components/Avatar.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Info.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
       "../src/commands/components/Ping.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Purge.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Sneak.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
@@ -816,9 +857,15 @@
         "../src/events/index.ts"
       ],
       "../src/events/components/Client/Ready.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/messageDeleted.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/events/index.ts"
       ],
       "../src/events/components/Cooldown.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/events/index.ts"
       ],
       "../src/events/index.ts": [
@@ -1077,7 +1124,23 @@
         "../src/BotHandler.ts",
         "../src/commands/index.ts"
       ],
+      "../src/commands/components/Avatar.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Info.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
       "../src/commands/components/Ping.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Purge.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/Sneak.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
@@ -1092,9 +1155,15 @@
         "../src/events/index.ts"
       ],
       "../src/events/components/Client/Ready.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/messageDeleted.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/events/index.ts"
       ],
       "../src/events/components/Cooldown.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
         "../src/events/index.ts"
       ],
       "../src/events/index.ts": [
@@ -1206,10 +1275,15 @@
       "../src/BotHandler.ts",
       "../src/BotWrapper.ts",
       "../src/commands/Handler.ts",
+      "../src/commands/components/Avatar.ts",
+      "../src/commands/components/Info.ts",
       "../src/commands/components/Ping.ts",
+      "../src/commands/components/Purge.ts",
+      "../src/commands/components/Sneak.ts",
       "../src/commands/index.ts",
       "../src/events/Handler.ts",
       "../src/events/components/Client/Ready.ts",
+      "../src/events/components/Client/messageDeleted.ts",
       "../src/events/components/Cooldown.ts",
       "../src/events/index.ts",
       "../src/index.ts",

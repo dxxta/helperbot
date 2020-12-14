@@ -9,23 +9,22 @@ class Ping extends __1.default {
         super('ping', {
             alias: ['ping'],
             limit: 1,
-            cooldown: 10000,
+            cooldown: 1000,
             details: {
-                desc: 'Check websocket connection between author - bot - api',
-                usage: '<prefix | @bot_mention> ping',
+                desc: 'Check websocket connection between api',
+                usage: '<prefix | @bot_mention> [aliases]',
                 examples: ['!ping', '@bot ping'],
             },
-            typing: true,
         });
     }
     async run(msg) {
         var _a;
         const loading = await msg.channel.send('Checking...');
         try {
-            await msg.channel.send(`Result: \`${(_a = this.client) === null || _a === void 0 ? void 0 : _a.ws.ping}ms\``);
+            await loading.edit(`Now..`);
         }
         finally {
-            loading.delete();
+            loading.edit(`Result: \`${(_a = this.client) === null || _a === void 0 ? void 0 : _a.ws.ping}ms\``);
         }
     }
 }

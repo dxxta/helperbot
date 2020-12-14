@@ -152,7 +152,7 @@ class CommandHandler extends BotHandler_1.default {
                 (await before);
             if (before === false)
                 return;
-            await cmd.run(msg);
+            await cmd.run(msg, this.modules);
         }
         finally {
             if (cmd.typing)
