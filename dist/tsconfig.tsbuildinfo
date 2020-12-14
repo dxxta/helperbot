@@ -387,8 +387,8 @@
         "affectsGlobalScope": false
       },
       "../src/BotWrapper.ts": {
-        "version": "c3367a5cde0084f6831b414c838aba4013fb1083793628baa8ff86f4af31f72d",
-        "signature": "666a2c50f28815e54eabd4520965c1d8fa989b8935209a2d9faa048f0309db24",
+        "version": "e8b5709fb29884b75e09e5fbc3cde3b03cd61154cb22b87d2c7416b469ffd086",
+        "signature": "ea3ff68a5720e91f75e6252f940f098c166f7f4fec360356c47625a56d13f181",
         "affectsGlobalScope": false
       },
       "../src/BotHandler.ts": {
@@ -447,7 +447,7 @@
         "affectsGlobalScope": false
       },
       "../src/utils/interface.ts": {
-        "version": "19594917af4db8d79b7adf8f1aa2484923b49e73977ccf9d757bb9c4fb54ad3a",
+        "version": "9b0e47eb9d5dfcb02c179e2e45f03076f2f4ffb5b8a7ad0760a2f9368c820be8",
         "signature": "288a87e49583580cd287b3d9c73031082825e41d79a5cc0b16bd249388864c1b",
         "affectsGlobalScope": false
       },
