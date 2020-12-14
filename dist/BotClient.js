@@ -14,7 +14,8 @@ class BotClient extends discord_js_1.Client {
         super(options);
         this.commandHandler = new Handler_1.default(this, {
             dir: path_1.join(__dirname, 'commands/components'),
-            prefix: '!',
+            prefix: '?',
+            defaultCooldowns: 3000,
             allowMentions: true,
             fetchMembers: true,
             cacheChannels: false,

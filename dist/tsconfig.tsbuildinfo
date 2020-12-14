@@ -392,13 +392,13 @@
         "affectsGlobalScope": false
       },
       "../src/BotHandler.ts": {
-        "version": "3d7478230b52912e312c962b75404de9d121a259e16a669f531a6aea6219d63c",
+        "version": "d34117e50cd3ad16d556daf8c42e85707cfe4ee170985c8f22d8a939d6864024",
         "signature": "df92c25532b5d7deb87850741e37d9d0871827064d92d4e9d6117361a61a37aa",
         "affectsGlobalScope": false
       },
       "../src/commands/index.ts": {
-        "version": "aca3c3cae6d1064258357c0c7b53601c0d79fa6f2ed86e95e8b20a7ab02bfc90",
-        "signature": "471f4535231b8e5837252cd36e8913775678ef9942656a94cf4b73874e70a09d",
+        "version": "dd5dd9cf238d5ed9969e82533c3907127e0c3dd5a3aac68bcd875db9b3b2bf3e",
+        "signature": "95cfdd3984de543c81d96398df0ecd9799144e281b080e54f290d83acb4d7546",
         "affectsGlobalScope": false
       },
       "../src/utils/stuff.ts": {
@@ -407,8 +407,8 @@
         "affectsGlobalScope": false
       },
       "../src/commands/Handler.ts": {
-        "version": "fa2aad2d5e51c5ecfdec8c14fb0a5e96babc2a74cabdde92f95ada7e3520b189",
-        "signature": "786c382fca7ec87de92d1f3acc8dbc5f166396125574e2abbd9949ea68db5680",
+        "version": "dc1ad100729d3db1d8d15269add83e102387d8d3ab3387de8d7876960d75f363",
+        "signature": "f31a436ae5f437a6980b57e54ad87766e5304b05f27a7ea9617a6296cd40b459",
         "affectsGlobalScope": false
       },
       "../src/events/index.ts": {
@@ -422,7 +422,7 @@
         "affectsGlobalScope": false
       },
       "../src/BotClient.ts": {
-        "version": "7443d29a6e72bfbf5ae9bdc1a147b85294eefec80cce83cfb9911a0bf18063d9",
+        "version": "2dbef43d2a024b10e57d1f0900fd7d58ae598b434fed0b3686053aa4f14b5844",
         "signature": "920aefdc557e93a69e1ddb3c1cc587720c0d24fd5582c0a29a10bb708eacc1a7",
         "affectsGlobalScope": false
       },
@@ -432,18 +432,23 @@
         "affectsGlobalScope": false
       },
       "../src/commands/components/Ping.ts": {
-        "version": "09cd44a4ab7469070f9b99195bbd22b7d8073aaa74b799d3aa39284cf34c1b1a",
+        "version": "10b7e18a1f10bb27a6d8410139694e84cd0cfc41d8aec4a2b1a569aafacbe190",
         "signature": "0a3961721eb0887ac389b8583a98adca8330869f34f13476974a5ccc8f76176f",
         "affectsGlobalScope": false
       },
-      "../src/events/components/Ready.ts": {
-        "version": "9bdf861c14e1df18962ecb682672e50128d29ba5587cdb9ce40d935cc26ddc25",
-        "signature": "425b51593cec014620d1a4a50960921c3fedc75325d86b0ed5a2239d40626015",
+      "../src/events/components/Cooldown.ts": {
+        "version": "7b213ec5ecd6d943cfa7c6614f4ff44975010938de8a2262a3d0380be152fc22",
+        "signature": "79ee84f4d72ec50ccfb109442a68f7a2e96c425698eb82c8d1a5ac632cac5c68",
+        "affectsGlobalScope": false
+      },
+      "../src/events/components/Client/Ready.ts": {
+        "version": "98f7791ed3768ddad7cf72a2d5df66049ae2f07bcc210a2a99f4cf273e2376aa",
+        "signature": "d8ec66805f2138e8a2c587cae247d44f077b8a40626d7872891e9cb86835d29d",
         "affectsGlobalScope": false
       },
       "../src/utils/interface.ts": {
-        "version": "b16db9c65aa4a188135c27d09105e355802d5ece914706114b18f01ae8a776ba",
-        "signature": "17254fdd7e66deeecca6ad9edff3080871819babb1ff32e11e85f1b1e51b5042",
+        "version": "19594917af4db8d79b7adf8f1aa2484923b49e73977ccf9d757bb9c4fb54ad3a",
+        "signature": "288a87e49583580cd287b3d9c73031082825e41d79a5cc0b16bd249388864c1b",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index-ts3.7.d.ts": {
@@ -810,7 +815,10 @@
         "../src/BotHandler.ts",
         "../src/events/index.ts"
       ],
-      "../src/events/components/Ready.ts": [
+      "../src/events/components/Client/Ready.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Cooldown.ts": [
         "../src/events/index.ts"
       ],
       "../src/events/index.ts": [
@@ -1083,7 +1091,10 @@
         "../src/BotHandler.ts",
         "../src/events/index.ts"
       ],
-      "../src/events/components/Ready.ts": [
+      "../src/events/components/Client/Ready.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Cooldown.ts": [
         "../src/events/index.ts"
       ],
       "../src/events/index.ts": [
@@ -1198,7 +1209,8 @@
       "../src/commands/components/Ping.ts",
       "../src/commands/index.ts",
       "../src/events/Handler.ts",
-      "../src/events/components/Ready.ts",
+      "../src/events/components/Client/Ready.ts",
+      "../src/events/components/Cooldown.ts",
       "../src/events/index.ts",
       "../src/index.ts",
       "../src/utils/interface.ts",
