@@ -17,6 +17,7 @@ class BotClient extends discord_js_1.Client {
             prefix: '?',
             defaultCooldowns: 3000,
             allowMentions: true,
+            blockBots: false,
             fetchMembers: true,
             cacheChannels: false,
             cachePresence: false,

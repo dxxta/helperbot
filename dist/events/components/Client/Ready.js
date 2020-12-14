@@ -27,7 +27,7 @@ class Ready extends index_1.default {
                 },
                 status: 'dnd',
             });
-        }, 1000);
+        }, 5000);
         console.log('Bot Siap');
     }
 }
