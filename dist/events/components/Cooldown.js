@@ -11,14 +11,11 @@ class Ready extends __1.default {
             event: 'cooldown',
         });
     }
-    run(...args) {
-        const [msg, command, time, uses] = args;
+    run(msg, ...args) {
+        const [command, time, uses] = args;
         msg.delete();
-        msg.channel
-            .send(this.NewEmbed()
-            .setTitle(`${command.id} command was cooldown for ${new Date(time).getSeconds()} seconds`)
-            .setColor(`#fe2e51`)
-            .setFooter(`for ${msg.author.username}`))
+        msg
+            .reply(`${command.id} command was cooldown for ${new Date(time).getSeconds()} seconds`)
             .then((e) => e.delete({ timeout: 5000 }));
     }
 }
