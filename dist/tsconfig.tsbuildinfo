@@ -1,137 +1,142 @@
 {
   "program": {
     "fileInfos": {
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
-        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
-        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "affectsGlobalScope": false
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
         "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "affectsGlobalScope": false
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
         "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "affectsGlobalScope": false
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.d.ts": {
         "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "affectsGlobalScope": false
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
-        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
-        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
         "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
         "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
-        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
-        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
-        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
-        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
-        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
-        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
         "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
-        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
-        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
         "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
         "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
-        "version": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
-        "signature": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
         "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
         "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
         "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
         "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
         "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
         "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
         "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
         "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
-        "version": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
-        "signature": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
         "affectsGlobalScope": true
       },
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
         "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
@@ -386,9 +391,14 @@
         "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528",
         "affectsGlobalScope": false
       },
+      "../src/utils/stuff.ts": {
+        "version": "2dfa433cd150b3cf8680180264b4c22f6665f23711702ed5fdd71595effa3a43",
+        "signature": "f05e712f36d069eeca3ba3b9b9add0092315002211e7ef240db240e8a9dac5c0",
+        "affectsGlobalScope": false
+      },
       "../src/BotWrapper.ts": {
-        "version": "e8b5709fb29884b75e09e5fbc3cde3b03cd61154cb22b87d2c7416b469ffd086",
-        "signature": "ea3ff68a5720e91f75e6252f940f098c166f7f4fec360356c47625a56d13f181",
+        "version": "797e22896c279e4e5c50f2048ee1c9479833d3de15755f2f1d01d2b5a23b7605",
+        "signature": "0f951f709bf6515b1429fbf8b9c53b35315d5c33b0bee2180ccd17005969be3b",
         "affectsGlobalScope": false
       },
       "../src/BotHandler.ts": {
@@ -397,17 +407,12 @@
         "affectsGlobalScope": false
       },
       "../src/commands/index.ts": {
-        "version": "d9986fe2885c8a4769ca8fb868ab17fd939ee146ee7ea4599fc48fe900d6dc9a",
-        "signature": "89157d2e41f700b0a7f528073c469197059dcbb6eb9cbae0a5ef9ef4581d4573",
-        "affectsGlobalScope": false
-      },
-      "../src/utils/stuff.ts": {
-        "version": "2dfa433cd150b3cf8680180264b4c22f6665f23711702ed5fdd71595effa3a43",
-        "signature": "f05e712f36d069eeca3ba3b9b9add0092315002211e7ef240db240e8a9dac5c0",
+        "version": "5ee238be2b6b79cf7fa10e66da0a8939a1e6a966c8923c633ee858c5d76b58c0",
+        "signature": "dd5af9384c7fd01d138a5595921a3954c069d2bb4c299225d9dc06859e023396",
         "affectsGlobalScope": false
       },
       "../src/commands/Handler.ts": {
-        "version": "58af875995824de0cf349eb534f40189a0271c43e635b034a350b42ef1c3c6a7",
+        "version": "67a57150e4857c4e500e033d3a47da88b9a0448b9769cef0fcef565585f8f955",
         "signature": "f31a436ae5f437a6980b57e54ad87766e5304b05f27a7ea9617a6296cd40b459",
         "affectsGlobalScope": false
       },
@@ -418,12 +423,37 @@
       },
       "../src/events/Handler.ts": {
         "version": "f2eaaad9bf3db911bb50aa633c3b1f82f3e0f2c5c8a5123d8017c345baf7c0e4",
-        "signature": "54afcfcebb81383871736a950f5721767092f4a20ac06720f13f4013bf87c5fa",
+        "signature": "7fa8bf49d60052d12d022785fc5ecac30404a16f3f765e889c07cc11dc5f713f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/bson/index.d.ts": {
+        "version": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f",
+        "signature": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/mongodb/index.d.ts": {
+        "version": "52a2350f36cdad787e4b6342abf62282e7c7bafcdd954c538f0e75adeb736a5e",
+        "signature": "52a2350f36cdad787e4b6342abf62282e7c7bafcdd954c538f0e75adeb736a5e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/mongoose/index.d.ts": {
+        "version": "afd4ac8c87239a61873e9bc0617f0fea45d6c2ead7306fa187dd0d78bc95855f",
+        "signature": "afd4ac8c87239a61873e9bc0617f0fea45d6c2ead7306fa187dd0d78bc95855f",
+        "affectsGlobalScope": false
+      },
+      "../src/repositories/database/DBWrapper.ts": {
+        "version": "72892afdee50aa86c1fafc7c1dcdbefee5c71fda165fce4bb33bd86aa9bf53a2",
+        "signature": "38902b6e373ddde2ea6e0ddc4ab0d659dc038a8db3013340b08b6589191e071c",
+        "affectsGlobalScope": false
+      },
+      "../src/repositories/database/Mongo.ts": {
+        "version": "c39b2802acf573892e4b8f34e348505eb6a9290d44f293e2ab1969f12ea09146",
+        "signature": "12ae9b3f37414b42b25ead32bdd7018406ffd5fe6630fac56fd69e0d0844369b",
         "affectsGlobalScope": false
       },
       "../src/BotClient.ts": {
-        "version": "2dbef43d2a024b10e57d1f0900fd7d58ae598b434fed0b3686053aa4f14b5844",
-        "signature": "920aefdc557e93a69e1ddb3c1cc587720c0d24fd5582c0a29a10bb708eacc1a7",
+        "version": "fae7b9d84b6bb88aaf31ccb30765f461c94170c9c8f63bbc76c18030048af5b7",
+        "signature": "292f5a5c53dd3703a628f140576cd31c15e413336b8b5f8dd54f886bd84b5c1c",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
@@ -432,28 +462,83 @@
         "affectsGlobalScope": false
       },
       "../src/commands/components/Avatar.ts": {
-        "version": "ad538b0774c4721f609224f43b8d4bcc4aa0dabe01d3a41e46f17dedff829169",
+        "version": "1fe0d9a54cbfb12e8648b6290d396a742699a854c1338ab5098ea624fb2ffaa0",
         "signature": "1298d99d3e08ef8966c5727d0bb8f73ff7e6f94b552f399fa90994c3e96b78af",
         "affectsGlobalScope": false
       },
-      "../src/commands/components/Info.ts": {
-        "version": "c64694bdcb8adcd9c5c4f87286267606a620ef92583980b7e8191b52ad4507b7",
-        "signature": "df3a0e76ea3449512d9ade1fea2dd7a9c72e463c3d35c40f91b7a4c38fe726f5",
+      "../src/commands/components/Help.ts": {
+        "version": "cc209936a8062dace79cf5f8ef8948e33713604a36a0d96bdcd3f5bbef3e7024",
+        "signature": "f7e0272e63b2c0a74909867463e8bdaae2d5ddb1383b7dcb026d0677564f8071",
+        "affectsGlobalScope": false
+      },
+      "../src/repositories/mongodb/guilds.ts": {
+        "version": "fc7255d3b225538e294bf45869be6cfd38fe60a23542cd8ea9acae18217a679e",
+        "signature": "096acf33d53a8be6c672210f525b88057362dab4ccb9357b1548c57b5a4bb900",
         "affectsGlobalScope": false
       },
       "../src/commands/components/Ping.ts": {
-        "version": "7f1fd20a0e2084e5aa80ada4f8b616615ba05b55a03c1629d284ecb9709294d7",
+        "version": "a9b1abf92d868bd730bc7851deb45d8d9f606936830d6795ca865423f057b3ee",
         "signature": "0a3961721eb0887ac389b8583a98adca8330869f34f13476974a5ccc8f76176f",
         "affectsGlobalScope": false
       },
       "../src/commands/components/Purge.ts": {
-        "version": "729b5884e42a7b5a2bec65a0b39d78e3c6a87cb10f6ce409afaa05343fe4594d",
+        "version": "c6a05de80b9edd4a07f7a8bd7bd9e933256fb197793108915b092c9c86d82d87",
         "signature": "4f2afd4362e7aee556aad0b8238d03a5d215d7e003e07327b93b9253bb585982",
         "affectsGlobalScope": false
       },
+      "../src/commands/components/Say.ts": {
+        "version": "e6cbd9485b0b2a6edff762cb2d4a57eb8591d31260fb5e151efa7358c78f73db",
+        "signature": "1e40c741e13e2bc0b7d80d082d2851e9d2d8348fc259ac38c7e706e9bea5dd19",
+        "affectsGlobalScope": false
+      },
       "../src/commands/components/Sneak.ts": {
-        "version": "54be69fb946d420c930a9df50b7f65263284608a06fadb1b39f43a835bc4fdcf",
+        "version": "933edd95f8f7a082255ac33926bebd503cb811a177d79bd359999b7f61249347",
         "signature": "19c91c15a26d2f35ee956efaa162d94b90901e89dc6f752611589a2ab00e4a57",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/manager/Config.ts": {
+        "version": "91cbf47c2bef12c50f1d2afb87d3b0034e0b11cfc26edbbd8e06fb55b865b2db",
+        "signature": "afcdc031ead111650a205370391a13be6e97fd6457aab3a55263d4d4820fef3f",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/manager/Info.ts": {
+        "version": "9f533e9fb4612535668a3d6c633c123ab4d02174e8f6af2c2de2332361e1a32d",
+        "signature": "9c778d8a176cc1b2974c59e887edb87f936b09ff25cef0e37a1179a854597697",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/manager/Roles.ts": {
+        "version": "d822176c23372edcb6f3470016e203743e4345fea8114c5860f083f1ce4675a2",
+        "signature": "7f6afcef375fa2b742b0adb6d19dfce88f1130dc4777b4c159d0a8ed12f74803",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/canvas/types/index.d.ts": {
+        "version": "972ac7483ef1685284ba6261bcb644be0a89fa7754e093305e5f4a3ee1b111b5",
+        "signature": "972ac7483ef1685284ba6261bcb644be0a89fa7754e093305e5f4a3ee1b111b5",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/manager/Send.ts": {
+        "version": "e3d894ba946bc28e497b213a1b8e474bf76208c93c1557f578b19e8df77dae42",
+        "signature": "396a1354d33864644b91b9a1ca6059246927b82ff3a95be37bdde26cba2a581a",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/manager/Todo.ts": {
+        "version": "8b0e45ba0f8a3412ffac28dc75c4e17cc688f82173b6a7ba27e5469a471d5a5e",
+        "signature": "8a7c2f76094e96a7003c716f35821f2dc0f52c527d65a408e4896e55b1662efe",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/mod/Ban.ts": {
+        "version": "7cf4388b2c78ab1bfeab2f4f2606b6169e1767236345e877dd054c4bf1bb9548",
+        "signature": "f6e28bdb170751fbff7e5a385657d4478b8f5577172633f31c971278a4022766",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/mod/Kick.ts": {
+        "version": "9e14b291fd59da1ba30167e4e7409563395a04dc5a5db2634344009b20795502",
+        "signature": "0b029f34fd69a68d178cdbe9d69dbaccb53f15ab2ac93f07f3777b02554b9b77",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/components/mod/Warn.ts": {
+        "version": "7125e6c7fdd6f9d67325c70e6937ecf8212e6085326e97cdcff65ab994ee67fe",
+        "signature": "70f180a06bf003c7a183f9ec2128588acbac2a1db046836456e0781816e7706a",
         "affectsGlobalScope": false
       },
       "../src/events/components/Cooldown.ts": {
@@ -461,19 +546,49 @@
         "signature": "d81b6d3c3a98ec430e3ea6c68c0bd26fe22cace8a02c4ae513d61cc4b138efae",
         "affectsGlobalScope": false
       },
+      "../src/events/components/Client/Error.ts": {
+        "version": "744720ae6f7f15436fd9bf10e9b1849c608f08de4f39d29399b7fea7ce1d500d",
+        "signature": "789a45e5eacba94c37223564cb71e0303a3f0a32c1bd4a29da55e64bbe49c4d7",
+        "affectsGlobalScope": false
+      },
+      "../src/events/components/Client/GuildJoin.ts": {
+        "version": "653d93b15690702c6716f95d3d874b8d4d294fd29aa6d0293828bd2ebe056f73",
+        "signature": "a7c856f3a3090f1ced80be0c39793b2bb5ac7e5f9e9752d61b97181fc01ad3a0",
+        "affectsGlobalScope": false
+      },
       "../src/events/components/Client/Ready.ts": {
-        "version": "93c07990f0a17d2c555533ac3d11f5005926b399bebebe1704a500f2949ea7dc",
+        "version": "f9156536d91be594bf3056656afcf2a8cba53b9cc0b97798ef948245141b7cf5",
         "signature": "991e3b7609770678c682a3305af8199718a1c2b6ff497d10c128a394ab76596a",
         "affectsGlobalScope": false
       },
+      "../src/events/components/Client/dataUpdate.ts": {
+        "version": "04109d4549f217528c3f493f375ba34c2855ffd78342bf1ca9688ac68d17a925",
+        "signature": "beaea2871c76184464e5d7d45bb7bd2e9a832f12ef4fd62a5b682f5db5d4b907",
+        "affectsGlobalScope": false
+      },
       "../src/events/components/Client/messageDeleted.ts": {
-        "version": "33798f4aa5de32423bcbff425cd0cd5b46d5a08d974fcb21b33dc4eef020650d",
+        "version": "86d94760e4778264303a26aeec1dda8874764aaa754e295e4523919c94cb2b55",
         "signature": "bc84318dc66ec7df7ebc60e258e1224ae03a2160a74483e28bad969afceb0879",
         "affectsGlobalScope": false
       },
+      "../src/repositories/mongodb/logs.ts": {
+        "version": "143dafe1bbc77c99722909903db0170139778076c7b3f0d080512c455a385720",
+        "signature": "096acf33d53a8be6c672210f525b88057362dab4ccb9357b1548c57b5a4bb900",
+        "affectsGlobalScope": false
+      },
+      "../src/repositories/mongodb/todo.ts": {
+        "version": "09093d40af3cb291d772d045fc7fe48aaa38bbc630c34e707a7da8ba33de230c",
+        "signature": "096acf33d53a8be6c672210f525b88057362dab4ccb9357b1548c57b5a4bb900",
+        "affectsGlobalScope": false
+      },
+      "../src/utils/RestManager.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
       "../src/utils/interface.ts": {
-        "version": "f8b193fd71a23a3d4021e3315812e01b91316c584d9f6cf89a6fd37e4e322375",
-        "signature": "ffd35ea85623804578b791a383093f340cead2f9b5f529cd2d9cc6ca7e4187a8",
+        "version": "1e1d8c7aee6b165b8227d9d4910491409b6228a28f70e32f1aa4d0a1ce836fe7",
+        "signature": "aa1b070b620a39be3d9c109ac4c76b2c38b9fe40f2e37cba76186cb3eae2aced",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index-ts3.7.d.ts": {
@@ -506,9 +621,9 @@
         "signature": "a66e700ed470a0cb52d14f3376c1605c70fec8e9659e45f7e22ad07fcd06ae04",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/bson/index.d.ts": {
-        "version": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f",
-        "signature": "2d23edce1d4a3b33280970484e17ca87b03e2829d8677ae1501de18269f0498f",
+      "../node_modules/@types/gif.js/index.d.ts": {
+        "version": "7276bd49280a6e57a2a11123b36c9e3bcc60bc533ec3580a1eadad53fce4991c",
+        "signature": "7276bd49280a6e57a2a11123b36c9e3bcc60bc533ec3580a1eadad53fce4991c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/graceful-fs/index.d.ts": {
@@ -529,11 +644,6 @@
       "../node_modules/@types/istanbul-reports/index.d.ts": {
         "version": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
         "signature": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/mongodb/index.d.ts": {
-        "version": "52a2350f36cdad787e4b6342abf62282e7c7bafcdd954c538f0e75adeb736a5e",
-        "signature": "52a2350f36cdad787e4b6342abf62282e7c7bafcdd954c538f0e75adeb736a5e",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/normalize-package-data/index.d.ts": {
@@ -603,6 +713,9 @@
       "../node_modules/@types/bson/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/@types/gif.js/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
       "../node_modules/@types/graceful-fs/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/index.d.ts"
@@ -790,6 +903,9 @@
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
       ],
+      "../node_modules/canvas/types/index.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
       "../node_modules/discord.js/typings/index.d.ts": [
         "../node_modules/@discordjs/collection/dist/index.d.ts",
         "../node_modules/@types/node/child_process.d.ts",
@@ -800,12 +916,19 @@
       "../node_modules/dotenv/types/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/mongoose/index.d.ts": [
+        "../node_modules/@types/mongodb/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/mongoose/index.d.ts"
+      ],
       "../src/BotClient.ts": [
         "../node_modules/@types/node/path.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../node_modules/dotenv/types/index.d.ts",
         "../src/commands/Handler.ts",
-        "../src/events/Handler.ts"
+        "../src/events/Handler.ts",
+        "../src/repositories/database/Mongo.ts"
       ],
       "../src/BotHandler.ts": [
         "../node_modules/@types/node/events.d.ts",
@@ -817,7 +940,8 @@
       ],
       "../src/BotWrapper.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/BotClient.ts"
+        "../src/BotClient.ts",
+        "../src/utils/stuff.ts"
       ],
       "../src/commands/Handler.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -830,19 +954,58 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
-      "../src/commands/components/Info.ts": [
+      "../src/commands/components/Help.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
       "../src/commands/components/Ping.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/commands/index.ts"
+        "../src/commands/index.ts",
+        "../src/repositories/mongodb/guilds.ts"
       ],
       "../src/commands/components/Purge.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
+      "../src/commands/components/Say.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
       "../src/commands/components/Sneak.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Config.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Info.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Roles.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Send.ts": [
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/canvas/types/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Todo.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Ban.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Kick.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Warn.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
@@ -856,8 +1019,18 @@
         "../src/BotHandler.ts",
         "../src/events/index.ts"
       ],
+      "../src/events/components/Client/Error.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/GuildJoin.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
       "../src/events/components/Client/Ready.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/dataUpdate.ts": [
         "../src/events/index.ts"
       ],
       "../src/events/components/Client/messageDeleted.ts": [
@@ -877,6 +1050,26 @@
         "../node_modules/@types/node/path.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../node_modules/dotenv/types/index.d.ts"
+      ],
+      "../src/repositories/database/DBWrapper.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/database/Mongo.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../node_modules/mongoose/index.d.ts",
+        "../src/repositories/database/DBWrapper.ts"
+      ],
+      "../src/repositories/mongodb/guilds.ts": [
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/mongodb/logs.ts": [
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/mongodb/todo.ts": [
+        "../node_modules/mongoose/index.d.ts"
       ],
       "../src/utils/interface.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -907,6 +1100,9 @@
       "../node_modules/@types/bson/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/@types/gif.js/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
       "../node_modules/@types/graceful-fs/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/index.d.ts"
@@ -1094,6 +1290,9 @@
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
       ],
+      "../node_modules/canvas/types/index.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
       "../node_modules/discord.js/typings/index.d.ts": [
         "../node_modules/@discordjs/collection/dist/index.d.ts",
         "../node_modules/@types/node/child_process.d.ts",
@@ -1104,10 +1303,17 @@
       "../node_modules/dotenv/types/index.d.ts": [
         "../node_modules/@types/node/index.d.ts"
       ],
+      "../node_modules/mongoose/index.d.ts": [
+        "../node_modules/@types/mongodb/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/mongoose/index.d.ts"
+      ],
       "../src/BotClient.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/Handler.ts",
-        "../src/events/Handler.ts"
+        "../src/events/Handler.ts",
+        "../src/repositories/database/Mongo.ts"
       ],
       "../src/BotHandler.ts": [
         "../node_modules/@types/node/events.d.ts",
@@ -1128,7 +1334,7 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
-      "../src/commands/components/Info.ts": [
+      "../src/commands/components/Help.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
@@ -1140,7 +1346,43 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
+      "../src/commands/components/Say.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
       "../src/commands/components/Sneak.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Config.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Info.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Roles.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Send.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/manager/Todo.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Ban.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Kick.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/commands/index.ts"
+      ],
+      "../src/commands/components/mod/Warn.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/commands/index.ts"
       ],
@@ -1154,8 +1396,18 @@
         "../src/BotHandler.ts",
         "../src/events/index.ts"
       ],
+      "../src/events/components/Client/Error.ts": [
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/GuildJoin.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
       "../src/events/components/Client/Ready.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/events/index.ts"
+      ],
+      "../src/events/components/Client/dataUpdate.ts": [
         "../src/events/index.ts"
       ],
       "../src/events/components/Client/messageDeleted.ts": [
@@ -1171,6 +1423,24 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotWrapper.ts"
       ],
+      "../src/repositories/database/DBWrapper.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/database/Mongo.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../node_modules/mongoose/index.d.ts",
+        "../src/repositories/database/DBWrapper.ts"
+      ],
+      "../src/repositories/mongodb/guilds.ts": [
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/mongodb/logs.ts": [
+        "../node_modules/mongoose/index.d.ts"
+      ],
+      "../src/repositories/mongodb/todo.ts": [
+        "../node_modules/mongoose/index.d.ts"
+      ],
       "../src/utils/interface.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/BotClient.ts"
@@ -1185,6 +1455,7 @@
       "../node_modules/@types/babel__template/index.d.ts",
       "../node_modules/@types/babel__traverse/index.d.ts",
       "../node_modules/@types/bson/index.d.ts",
+      "../node_modules/@types/gif.js/index.d.ts",
       "../node_modules/@types/graceful-fs/index.d.ts",
       "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "../node_modules/@types/istanbul-lib-report/index.d.ts",
@@ -1242,54 +1513,75 @@
       "../node_modules/@types/stack-utils/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
+      "../node_modules/canvas/types/index.d.ts",
       "../node_modules/discord.js/typings/index.d.ts",
       "../node_modules/dotenv/types/index.d.ts",
+      "../node_modules/mongoose/index.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../src/BotClient.ts",
       "../src/BotHandler.ts",
       "../src/BotWrapper.ts",
       "../src/commands/Handler.ts",
       "../src/commands/components/Avatar.ts",
-      "../src/commands/components/Info.ts",
+      "../src/commands/components/Help.ts",
       "../src/commands/components/Ping.ts",
       "../src/commands/components/Purge.ts",
+      "../src/commands/components/Say.ts",
       "../src/commands/components/Sneak.ts",
+      "../src/commands/components/manager/Config.ts",
+      "../src/commands/components/manager/Info.ts",
+      "../src/commands/components/manager/Roles.ts",
+      "../src/commands/components/manager/Send.ts",
+      "../src/commands/components/manager/Todo.ts",
+      "../src/commands/components/mod/Ban.ts",
+      "../src/commands/components/mod/Kick.ts",
+      "../src/commands/components/mod/Warn.ts",
       "../src/commands/index.ts",
       "../src/events/Handler.ts",
+      "../src/events/components/Client/Error.ts",
+      "../src/events/components/Client/GuildJoin.ts",
       "../src/events/components/Client/Ready.ts",
+      "../src/events/components/Client/dataUpdate.ts",
       "../src/events/components/Client/messageDeleted.ts",
       "../src/events/components/Cooldown.ts",
       "../src/events/index.ts",
       "../src/index.ts",
+      "../src/repositories/database/DBWrapper.ts",
+      "../src/repositories/database/Mongo.ts",
+      "../src/repositories/mongodb/guilds.ts",
+      "../src/repositories/mongodb/logs.ts",
+      "../src/repositories/mongodb/todo.ts",
+      "../src/utils/RestManager.ts",
       "../src/utils/interface.ts",
-      "../src/utils/stuff.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+      "../src/utils/stuff.ts"
     ]
   },
-  "version": "3.9.5"
+  "version": "4.1.2"
 }

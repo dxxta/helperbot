@@ -10,24 +10,30 @@ class Avatar extends __1.default {
             alias: ['avatar', 'av'],
             limit: 1,
             cooldown: 5000,
+            channel: 'both',
             details: {
                 desc: 'Showing avatar of author or selected member',
-                usage: '<prefix | @bot_mention> [aliases] {@member} - optional',
-                examples: ['!av @tika#3313', '@bot avatar', '!avatar'],
+                usage: '<prefix> [aliases] {member} - optional',
+                args: ['member'],
+                examples: ['w/av @tika#3313', '@bot avatar', 'w/avatar'],
             },
             typing: true,
         });
     }
     async run(msg) {
         const message = await msg.channel.send(`Generating avatar...`);
-        let result = this.resolveMember(msg.content.toString(), msg);
-        result = result ? result.user : msg.author;
+        const [result] = await this.resolveArgue([
+            {
+                match: 'member',
+                default: (message) => message.member,
+            },
+        ], msg);
         msg.channel.send({
             embed: this.NewEmbed()
-                .setTitle(`${result.username} avatar`)
-                .setColor(this.ColorUser(msg, result))
-                .setURL(result.avatarURL({ dynamic: true }))
-                .setImage(result.displayAvatarURL({ dynamic: true, size: 1024 }))
+                .setTitle(`${result.user.tag} avatar`)
+                .setColor(this.ColorUser(msg, result.user))
+                .setURL(result.user.avatarURL({ dynamic: true }))
+                .setImage(result.user.displayAvatarURL({ dynamic: true, size: 1024 }))
                 .setFooter(`requested by ${msg.author.username}`),
         });
         message.delete();

@@ -29,9 +29,8 @@ class CommandHandler extends BotHandler_1.default {
         this.defaultCooldowns = options.defaultCooldowns;
         this.fetchMembers = Boolean(options.fetchMembers || false);
         this.allowMentions = Boolean(options.allowMentions || false);
-        this.cacheUsers = Boolean(options.cacheUsers || true);
         this.cacheChannels = Boolean(options.cacheChannels || true);
-        this.cachePresence = Boolean(options.cachePresence || true);
+        this.cachePresence = Boolean(options.cachePresence || false);
         this.blockBots = Boolean(this.blockBots || false);
         this.cooldowns = new discord_js_1.Collection();
         this.aliases = new discord_js_1.Collection();
@@ -106,41 +105,36 @@ class CommandHandler extends BotHandler_1.default {
     }
     async handleMessage(msg) {
         if (this.fetchMembers && msg.guild && !msg.member && !msg.webhookID) {
-            await msg.guild.members.fetch(msg.author);
+            msg.guild.members.fetch(msg.author);
         }
         const result = await this.parseCommand(msg);
         if (result.command) {
             msg.content = result.content;
-            if ((await this.runCooldowns(msg, result.command)) === true)
-                return;
             if ((await this.handlerPreventer(msg, result.command)) === true)
+                return;
+            if ((await this.runCooldowns(msg, result.command)) === true)
                 return;
             await this.runCommand(msg, result.command);
             this.handleCached(msg);
         }
     }
     handleCached(msg) {
-        if (!this.cacheChannels) {
+        var _a, _b, _c;
+        if (this.cacheChannels === false) {
             let connections = this.client.voice
                 ? this.client.voice.connections.map((t) => t.channel.id)
                 : [];
             this.client.channels.cache.sweep((t) => !connections.includes(t.id));
         }
-        for (let guild of this.client.guilds.cache.values()) {
-            if (!this.cacheChannels) {
-                guild.channels.cache.sweep((t) => !this.client.channels.cache.has(t.id));
-            }
-            if (!this.cacheUsers) {
-                this.client.users.cache.sweep((t) => { var _a; return t.id !== ((_a = this.client.user) === null || _a === void 0 ? void 0 : _a.id) && !t.lastMessageID; });
-            }
-            if (!this.cachePresence) {
-                guild.presences.cache.sweep((t) => !this.client.users.cache.has(t.userID));
-            }
-            if (!this.fetchMembers) {
-                guild.members.cache.sweep((t) => !this.client.users.cache.has(t.id));
-            }
+        if (this.cacheChannels === false) {
+            (_a = msg.guild) === null || _a === void 0 ? void 0 : _a.channels.cache.delete(msg.channel.id);
         }
-        return;
+        if (this.cachePresence === false) {
+            (_b = msg.guild) === null || _b === void 0 ? void 0 : _b.presences.cache.delete(msg.author.presence.userID);
+        }
+        if (this.fetchMembers === false) {
+            (_c = msg.guild) === null || _c === void 0 ? void 0 : _c.members.cache.delete(msg.author.id);
+        }
     }
     async runCommand(msg, cmd) {
         if (cmd.typing)
@@ -152,7 +146,7 @@ class CommandHandler extends BotHandler_1.default {
                 (await before);
             if (before === false)
                 return;
-            await cmd.run(msg, this.modules);
+            cmd.run(msg, this.modules, msg.content.toLowerCase());
         }
         finally {
             if (cmd.typing)

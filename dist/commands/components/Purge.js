@@ -9,31 +9,48 @@ class Purge extends __1.default {
         super('purge', {
             alias: ['purge'],
             details: {
-                desc: 'Delete messages based on limit [max: 100]',
-                usage: '<prefix | @bot_mention> [aliases] (limit)',
-                examples: ['!purge 5', '@bot purge 100'],
+                desc: "Purge messages based on limit [max: 100]\n`make sure` you dont put the limit to 100 up\n`an old message` can`t be deleted if it's older than 14 days",
+                usage: '<prefix> [aliases] (limit)',
+                args: ['limit'],
+                examples: ['w/purge 5', '@bot purge 100'],
             },
-            channel: 'guild',
             userPerms: ['MANAGE_MESSAGES'],
             cooldown: 15000,
         });
     }
     async run(msg) {
-        let check = msg.content.split(' ');
-        check = check.find((e) => Number(e));
-        !check &&
+        let [limit] = await this.resolveArgue([
+            {
+                match: 'number',
+                default: undefined,
+            },
+        ], msg);
+        !limit &&
             msg.channel
-                .send(this.NewEmbed()
-                .setTitle(':no_entry: This command need a value !')
-                .setColor(`RED`))
+                .send({
+                embed: {
+                    description: ':no_entry: this command needed a value',
+                    color: `RED`,
+                },
+            })
                 .then((e) => e.delete({ timeout: 5000, reason: 'warn' }));
-        await msg.delete();
         try {
-            check &&
-                (await msg.channel.messages.channel.bulkDelete(check > 100 ? 100 : check, true));
+            limit++;
+            limit &&
+                (await msg.channel.messages.channel
+                    .bulkDelete(limit > 100 ? 100 : limit)
+                    .catch(() => {
+                    throw new Error(':watch: cannot purge messages older than 14 days');
+                }));
         }
-        catch (error) {
-            console.log(error);
+        catch (message) {
+            msg.channel.send({
+                content: msg.author,
+                embed: {
+                    description: String(message),
+                    color: `RED`,
+                },
+            });
         }
     }
 }
