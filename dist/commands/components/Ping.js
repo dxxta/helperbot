@@ -10,10 +10,11 @@ class Ping extends __1.default {
             alias: ['ping'],
             limit: 1,
             cooldown: 1000,
+            channel: 'both',
             details: {
                 desc: 'Check websocket connection between api',
-                usage: '<prefix | @bot_mention> [aliases]',
-                examples: ['!ping', '@bot ping'],
+                usage: '<prefix> [aliases]',
+                examples: ['w/ping', '@bot ping'],
             },
         });
     }
@@ -21,7 +22,7 @@ class Ping extends __1.default {
         var _a;
         const loading = await msg.channel.send('Checking...');
         try {
-            await loading.edit(`Now..`);
+            await loading.edit(`Done =^`);
         }
         finally {
             loading.edit(`Result: \`${(_a = this.client) === null || _a === void 0 ? void 0 : _a.ws.ping}ms\``);
