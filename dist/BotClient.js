@@ -27,7 +27,7 @@ class BotClient extends discord_js_1.Client {
             blockBots: true,
             allowMentions: true,
             fetchMembers: true,
-            ignorePerms: '565906486996500510',
+            ignorePerms: '852580266526638151',
         });
         this.eventHandler = new Handler_2.default(this, {
             dir: path_1.join(__dirname, 'events/components'),
